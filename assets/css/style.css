@@ -108,6 +108,8 @@ body{
      flex-wrap: wrap;
 }
 
+
+
 .justify-content{
      justify-content:space-between;
 }
@@ -222,6 +224,7 @@ body{
      color: #fff;
      overflow: hidden;
      padding: 10px;
+     transition:0.5s;
 }
 
 #banner-section .banner-content .btn-watch:hover {
