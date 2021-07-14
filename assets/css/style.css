@@ -398,7 +398,7 @@ body{
 
 #sponsor-section .sponsor-heading{
      color: #fff;
-     text-transform: capitalize;
+     text-transform: uppercase;
 }
 
 
@@ -435,7 +435,7 @@ body{
 #footer-section{
      padding-top: 2rem;
      text-align: center;
-     background-color: #FDFAF6;
+     
 }
 
 #footer-section .footer-img{
