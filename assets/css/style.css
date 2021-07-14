@@ -126,7 +126,7 @@ body{
      display: grid;
      grid-template-columns: repeat(3,1fr);
      place-items: center;
-     row-gap: 30px;
+     grid-gap: 30px;
      
      
 }
@@ -409,7 +409,7 @@ body{
      display: grid;
      grid-template-columns: repeat(4,1fr);
      place-items: center;
-     gap: 15px;
+     grid-gap: 30px;
 }
 
 
@@ -525,7 +525,7 @@ tab and ipad devices  Media Queries
      display: grid;
      grid-template-columns: repeat(2,1fr);
      place-items: center;
-     row-gap: 30px;
+     grid-gap: 30px;
  
     }
 
@@ -608,7 +608,7 @@ tab and ipad devices  Media Queries
      display: grid;
      grid-template-columns: repeat(1,1fr);
      place-items: center;
-     gap: 20px;
+     grid-gap: 20px;
  
     }
 
