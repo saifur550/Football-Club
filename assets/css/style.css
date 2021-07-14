@@ -126,7 +126,7 @@ body{
      display: grid;
      grid-template-columns: repeat(3,1fr);
      place-items: center;
-     grid-gap: 15px;
+     row-gap: 30px;
      
      
 }
@@ -169,7 +169,7 @@ body{
 #banner-section{
      background-color: var(--bannerColor);
      color: #fff;
-     padding-bottom: 3rem;
+     height: 677px;
      
 }
 
@@ -435,10 +435,10 @@ body{
 ============================ */
 
 
-#footer-section{
-     padding-top: 2rem;
-     text-align: center;
-     
+#footer-section {
+	padding-top: 2rem;
+	text-align: center;
+	padding-bottom: 4rem;
 }
 
 #footer-section .footer-img{
@@ -525,9 +525,14 @@ tab and ipad devices  Media Queries
      display: grid;
      grid-template-columns: repeat(2,1fr);
      place-items: center;
-     gap: 20px;
+     row-gap: 30px;
  
     }
+
+    .p-y{
+     padding-top: 0;
+     padding-bottom: 2rem;
+}
 
 
 
@@ -587,7 +592,7 @@ tab and ipad devices  Media Queries
 @media only screen and (max-width: 481px) {
 
      .container{
-          max-width: 90%;
+          max-width: 93%;
      }
 
 
