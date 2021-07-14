@@ -2,11 +2,17 @@
         Google fonts 
 ============================ */
 
+
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700;800&display=swap');
+
 
 /* ========================== 
     variables
 ============================ */
+
+
+
 :root{
 
     /* ---fonts variable---- */
@@ -56,6 +62,8 @@
 ============================ */
 
 
+
+
 a,
 a:hover{
      text-decoration: none;
@@ -88,6 +96,7 @@ body{
 ============================ */
 
 
+
 .container{
      max-width: 1160px;
      margin: 0 auto;
@@ -115,6 +124,7 @@ body{
      display: grid;
      grid-template-columns: repeat(3,1fr);
      place-items: center;
+     grid-gap: 15px;
      
      
 }
@@ -152,6 +162,7 @@ body{
 /* ========================== 
     Banner section style
 ============================ */
+
 
 #banner-section{
      background-color: var(--bannerColor);
@@ -210,19 +221,21 @@ body{
      margin-top: 20px;
      color: #fff;
      overflow: hidden;
+     padding: 10px;
 }
 
 #banner-section .banner-content .btn-watch:hover {
 
-   background-color: #ffc400;
-   color: #000;
+   background-color: #ff1e00;
+   filter: invert(100%);
    transform: scale(1.1);
    transition:transform 0.5s ease ;
 }
 
 
 #banner-section .banner-content .btn-watch img {
-     margin-left: 10px;    
+     margin-left: 10px;   
+     filter: invert(100%);
 }
 
 #banner-section .banner-content h2{
@@ -239,11 +252,24 @@ body{
 }
 
 
+
 /* ========================== 
-     Player  section style
+    Banner section style End
 ============================ */
+
+
+
+
+
+/* ========================== 
+     Player  section style Start
+============================ */
+
+
+
 #player-section{
-     padding-top: 2rem;
+     padding-top: 3rem;
+     padding-bottom: 3rem;
      
 }
 
@@ -281,12 +307,26 @@ body{
     color:var(--pColor)
 }
 
+
 /* ========================== 
-     Top news section style
+     Player  section style End
 ============================ */
+
+
+
+
+
+
+
+/* ========================== 
+     Top news section Start
+============================ */
+
+
+
 #top-news{
      padding-top: 2rem;
-     padding-bottom: 2rem;
+     padding-bottom: 4rem;
 }
 
 
@@ -338,10 +378,20 @@ body{
 
 
 /* ========================== 
-     sponsor section style
+     Top news section End
 ============================ */
+
+
+
+
+
+/* ========================== 
+     sponsor section style Start
+============================ */
+
 #sponsor-section{
-     padding: 2rem;
+     padding-top: 4rem;
+     padding-bottom: 5rem;
      background-color:#293B5F ;
 }
 
@@ -367,12 +417,25 @@ body{
      
 }
 
+
+
 /* ========================== 
-    Footer section style
+     sponsor section style End
 ============================ */
+
+
+
+
+
+/* ========================== 
+    Footer section style Start
+============================ */
+
+
 #footer-section{
      padding-top: 2rem;
      text-align: center;
+     background-color: #FDFAF6;
 }
 
 #footer-section .footer-img{
@@ -411,6 +474,24 @@ body{
 
 
 
+/* ========================== 
+    Footer section style End
+============================ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* ========================== 
  Responsive  Media Queries
@@ -418,7 +499,7 @@ body{
 
 
 /* ========================== 
- tab,ipad devices  Media Queries
+tab and ipad devices  Media Queries
 ============================ */
 
 
@@ -457,7 +538,6 @@ body{
      }
 
 
-
      #banner-section .banner-img {
           width: 100%;
           margin-top: 30px;
@@ -480,6 +560,19 @@ body{
      }
      
    }
+
+
+
+
+
+
+
+
+
+  
+/* ========================== 
+ Responsive  Media Queries
+============================ */ 
 
 
 /* ========================== 
