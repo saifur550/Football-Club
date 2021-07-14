@@ -587,7 +587,7 @@ tab and ipad devices  Media Queries
 @media only screen and (max-width: 481px) {
 
      .container{
-          max-width: 95%;
+          max-width: 90%;
      }
 
 
